@@ -7,31 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!--[if gte IE 9]>      <link rel="stylesheet" type="text/css" href="~/Styles/IE9Styles.css" />    <![endif]-->
     <!--[if IE 8]>      <link rel="stylesheet" type="text/css" href="~/Styles/IE8Styles.css" />    <![endif]-->
-    <script>
-        $(function() {
-            $("#aspnetForm").validate({
-                rules: {
-                    EmailInput: { email: true },
-                    //CellPhoneInput: {email:true}
-                },
-                //messages: { EmailInput: { email: "נא להכניס כתובת Email תקינה" } },
-                success: function () {
-                    $(this).parent().append('<TextArea rows="2" class="ChangesSaved" readOnly="true">השינוי נשמר</TextArea>');
-                    //Post all necessary data to the server, and it will update the SQL on Page_Load
-                    //$.post("#", { RequestType: "UpdateSQL", ApplicantID: ApplicantID, FieldName: FieldName, FieldData: this.innerText });
-                    //Show "השינוי נשמר" message for 2 seconds:
-                    var TheCellContent = this;
-                    setTimeout(function () {
-                        if (TheCellContent.nextElementSibling.innerHTML == "השינוי נשמר") {
-                            TheCellContent.nextElementSibling.remove();
-                        }
-                    }, 2000);
-                }
-            })
-
-
-
-</script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
        <script type="text/javascript">           //This script will run before page load, but AFTER coolgridview.cs has finished!
