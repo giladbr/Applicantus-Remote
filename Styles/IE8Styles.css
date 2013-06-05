@@ -1,4 +1,0 @@
-﻿.GridHeader th {    background-image:url(gradient.gif);    background-repeat:repeat-x;  outline:gray solid 1px;}
-.GridStyle .odd td { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#cfcfd7',GradientType=0 );
-                               outline:gray solid 1px;}
-
