@@ -208,7 +208,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebControls\IdeaSparx.CoolControls.Web-2005.csproj">
+    <ProjectReference Include="WebControls\IdeaSparx.CoolControls.Web-2005.csproj">
       <Project>{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}</Project>
       <Name>IdeaSparx.CoolControls.Web-2005</Name>
     </ProjectReference>

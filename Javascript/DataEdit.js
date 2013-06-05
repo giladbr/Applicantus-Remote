@@ -1,6 +1,4 @@
-﻿
-
-$(document).ready(function () {
+﻿$(document).ready(function () {
     $.validator.setDefaults({
         errorElement: "div",
         errorPlacement: function (error, element) {
