@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applicantus", "Applicantus.csproj", "{F17DA733-F83A-4B00-B679-73787CF9747E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaSparx.CoolControls.Web-2005", "WebControls\IdeaSparx.CoolControls.Web-2005.csproj", "{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17DA733-F83A-4B00-B679-73787CF9747E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17DA733-F83A-4B00-B679-73787CF9747E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17DA733-F83A-4B00-B679-73787CF9747E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17DA733-F83A-4B00-B679-73787CF9747E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC61520-FA73-4FDD-AE7D-426E58A6F0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

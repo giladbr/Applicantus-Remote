@@ -1,0 +1,3 @@
+﻿/*.GridStyle TR TH, .GridFooter {filter:none;}*/
+.GridHeader th {    background-image:url(gradient.gif);    background-repeat:repeat-x;  outline:gray solid 1px;}
+.GridFooter {border:none;}
